@@ -51,11 +51,13 @@ nav{
     font-family: 'Times New Roman', Times, serif;
     position: sticky;
     top: 96px;
+    
 
 
 }
 nav > a{
-    padding: 10px;
+    padding: 5px;
+    padding-top: 10px;
     color: white;
     font-weight: bold;
     border-radius: 5px;
@@ -65,6 +67,27 @@ nav > a{
 
 nav >a:hover{
     background-color: var(--cor1);
+    
+}
+
+section {
+    padding: 10px;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    background-attachment: fixed;
+}
+
+section#founder {
+    background-image: url('../imagens/founder.jpg');
+    background-position: center center;
+    background-size: cover
+
+}
+
+section#privete {
+    background-image: url(../imagens/privete.jfif);
+    background-size: cover;
+    
 }
 
 main{
@@ -72,8 +95,8 @@ main{
     margin: auto;
     padding: 5px;
     margin-bottom: 20px;
-    min-width: 300px;
-    max-width: 1000px;
+    min-width: 320px;
+    max-width: 667px;
     box-shadow: 0px 0px 10px yellow;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -92,7 +115,7 @@ main video{
 main img{
     margin: auto;
     width: 100%;
-    padding-top: 3vh;
+    padding-top: 1vh;
 }
 
 main img.pequena {
