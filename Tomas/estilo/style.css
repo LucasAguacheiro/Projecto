@@ -70,33 +70,15 @@ nav >a:hover{
     
 }
 
-section {
-    padding: 10px;
-    padding-top: 50%;
-    padding-bottom: 50%;
-    background-attachment: fixed;
-}
 
-section#founder {
-    background-image: url('../imagens/founder.jpg');
-    background-position: center center;
-    background-size: cover
-
-}
-
-section#privete {
-    background-image: url(../imagens/privete.jfif);
-    background-size: cover;
-    
-}
 
 main{
     background-color: var(--cor0);
     margin: auto;
     padding: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     min-width: 320px;
-    max-width: 667px;
+    max-width: 1440px;
     box-shadow: 0px 0px 10px yellow;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -104,12 +86,33 @@ main{
     font-family: 'Times New Roman', Times, serif;
 }
 
+section {
+    background-image: url(../imagens/founder.jpg);
+    padding: auto;
+    margin: auto;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    background-attachment: fixed;
+}
+div.quadrada {
+    width: 300px;
+    height: 300px;
+    border: 2px solid yellow;
+    background-color: rgb(77, 102, 8);
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+
+
 main video{
     margin: auto;
     width: 70%;
     min-height: auto;
     max-height: 100%;
     display: block;
+    padding-top: 2vh;
 }
 
 main img{
@@ -122,6 +125,7 @@ main img.pequena {
     margin: auto;
     width: 60%;
     height: 570px;
+    padding-top: 1vh;
 
 }
 
