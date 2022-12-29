@@ -78,7 +78,7 @@ main{
     padding: 5px;
     margin-bottom: 10px;
     min-width: 320px;
-    max-width: 1000px;
+    max-width: 1400px;
     box-shadow: 0px 0px 10px yellow;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -90,7 +90,9 @@ section {
     background-image: url(../imagens/founder.jpg);
     padding-top: 25%;
     padding-bottom: 25%;
+    padding: auto;
     background-attachment: fixed;
+    background-position: center;
 }
 div.quadrada {
     width: 300px;
@@ -121,16 +123,16 @@ main video{
     margin: auto;
     width: 70%;
     min-height: auto;
-    max-height: 100%;
+    max-height: auto;
     display: block;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 
 video#foundo {
     border: 1px solid yellow;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: auto;
+    padding-right: auto;
     margin-top: 10px;
     border-radius: 10px;
     background-color: rgba(3, 3, 88, 0.555);
@@ -149,6 +151,7 @@ main img.pequena {
     width: 25%;
     height: 500px;
     padding-top: 4vh;
+
 
 }
 
