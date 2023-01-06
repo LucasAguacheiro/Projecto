@@ -148,8 +148,8 @@ main img{
 
 main img.pequena {
     margin: auto;
-    width: 25%;
-    height: 500px;
+    width: auto;
+    height: 800px;
     padding-top: 4vh;
 
 
